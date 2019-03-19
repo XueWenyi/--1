@@ -1,0 +1,53 @@
+.comp-one {
+    height: 600px;
+}
+.one-content {
+    max-width: 1200px;
+    margin: 50px auto 0;
+    display: flex;
+}
+.one-right {
+    margin-left: 20px;
+}
+.one-in {
+    padding-top: 20px;
+    font-size: 18px;
+}
+.one-int {
+    font-size: 18px;
+}
+.one-bott {
+    max-width: 1200px;
+    margin: 10px auto ;
+}
+.two-bgimg {
+    background: url(../images/comp-bgtwo.jpg) no-repeat;
+    background-size: 100% 400px;
+    height: 450px;
+    margin-top: 50px;
+}
+.temp-three {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.three-one {
+    width: 200px;
+}
+.three-two {
+    width: 900px;
+}
+.fa-quote-left {
+    font-size: 40px;
+    color: #999;
+}
+.fa-quote-right {
+    font-size: 40px;
+    color: #999;
+    margin-left: 900px;
+}
+.three-two p{
+    margin-left: 40px;
+}

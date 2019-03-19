@@ -1,0 +1,39 @@
+.comp-one {
+    height: 1700px;
+}
+.honor-one {
+    max-width: 1200px;
+    margin: 50px auto 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #000;
+    overflow: hidden;
+}
+.fa-star-of-life {
+    color: red;
+    margin-right: 10px;
+}
+.honor-nav {
+    width: 400px;
+}
+.honor-img img{
+    margin-left: 20px;
+}
+.honor-two {
+    max-width: 1200px;
+    margin: 50px auto 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+}
+.honor-imgtwo {
+    width: 760px;
+}
+.honor-imgtwo img {
+    margin-left: 20px;
+}
+.comp-one {
+    height: 1600px;
+}

@@ -1,0 +1,144 @@
+.comp-one {
+    height: 100px;
+}
+.comp-bgimg {
+    background: url(../images/adv-bg01.jpg) no-repeat;
+    background-size: 100% 400px;
+    height: 450px;
+}
+.man-one {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+}
+.man-one h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.man-onemain {
+    display: flex;
+    justify-content: space-between;
+}
+.man-oneimg {
+    width: 534px;
+    height: 322px;
+}
+.man-oneimg img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 0.5s;
+}
+.man-oneimg img:hover {
+    transform: scale(1.1);
+}
+.man-onep {
+    width: 634px;
+    height: 322px;
+}
+.man-onep p{
+    color: #666666;
+    line-height: 33px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.man-two {
+    background: url(../images/adv-bg02.jpg) no-repeat;
+    background-size: 100% 500px;
+    height: 550px;
+}
+.man-twomain {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.man-twomain h2{
+    padding: 50px 0 30px;
+    text-align: center;
+}
+.man-twop {
+    width: 634px;
+    height: 322px;
+}
+.man-twop p{
+    color: #666666;
+    line-height: 33px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.adv-two {
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.adv-two h2 {
+    text-align: center;
+    margin: 10px auto 50px;
+}
+.adv-twoMian ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.adv-twoMian ul li {
+    display: inline-block;
+    width: 225px;
+    height: 310px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+.adv-twoMian ul li:hover {
+    border: 1px solid #08a0e9;
+}
+.adv-twotop {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    top: -35px;
+}
+.adv-twotop span {
+    display: inline-block;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+}
+.adv-twotop span i {
+    display: inline-block;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background: #ddd;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.adv-twotop span i:hover {
+    background: #08a0e9;
+}
+.adv-twotop span i img {
+    margin-top: 20px;
+    transition: 1s;
+}
+.adv-twotop span i img:hover {
+    transform: scale(1.1);
+}
+.adv-twobou {
+    width: 100%;
+}
+.adv-twobou strong {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #666;
+}
+.adv-twobou p {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #888888;
+    line-height: 26px;
+    margin-top: 15px;
+    text-align: justify;
+    
+}

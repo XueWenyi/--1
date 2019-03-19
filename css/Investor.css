@@ -1,0 +1,74 @@
+.comp-one {
+    height: 150px;
+}
+.comp-bgimg {
+    background: url(../images/inv-bg01.jpg) no-repeat;
+    background-size: 100% 400px;
+    height: 450px;
+}
+.inv-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 850px;
+}
+.inv-one {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    margin-bottom: 80px;
+    width: 836px;
+}
+.inv-img1 {
+    display: inline-block;
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.inv-img2 {
+    display: none;
+}
+.inv-one p {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 600px;
+}
+.inv-one span i{
+    width: 56px;
+    font-size: 40px;
+}
+.inv-one span em {
+    font-size: 14px;
+}
+.inv-oneRight {
+    width: 308px;
+    height: 493px;
+    padding: 18px;
+    border: 9px solid #f3f3f3;
+    background: #fff;
+}
+.inv-oneRight strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.inv-oneRight p {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.inv-oneRight a {
+    display: block;
+    width: 100px;
+    line-height: 34px;
+    color: #cf000d;
+    border: 1px solid #cf000d;
+    text-align: center;
+    transition: 0.5s;
+}
+.inv-oneRight a:hover {
+    background: #cf000d;
+    color: #fff;
+    text-decoration: none;
+}

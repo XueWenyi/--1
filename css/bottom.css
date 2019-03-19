@@ -1,0 +1,58 @@
+.footop {
+    background: #303030;
+    height: 450px;
+}
+.foot-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-list dl{
+    float: left;
+    width: 180px;
+    padding: 40px 0 20px;
+}
+.foot-list dl dt {
+    color: #fff;
+}
+.foot-list dl dd {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-inline-start: 0px;
+}
+.foot-list dl dd a {
+    color: #999999;
+    margin-bottom: 10px;
+}
+hr {
+    background: #999999;
+    color: #999999;
+}
+.footen {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footen p{
+    color: #fff;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.footen p a {
+    color: #fff;
+}
+.footen p img {
+    width: 40px;
+    height: 45px;
+    margin-left: 10px;
+}
+.foot-right {
+    margin-top: 20px;
+}
+.foot-right a{
+    color: #fff;
+    font-size: 16px;
+}

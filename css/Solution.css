@@ -1,0 +1,315 @@
+.solu-bgimg {
+    background: url(../images/solu-bg01.jpg) no-repeat;
+    background-size: 100% 450px;
+    height: 450px;
+}
+.solu-bgin {
+    max-width: 1270px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+.solu-bgin dl {
+    margin-top: 200px;
+}
+.solu-bgin>dl>dt {
+    font-size: 36px;
+    color: #fff;
+}
+.solu-bgin>dl>dd {
+    font-size: 15px;
+    color: #fff;
+    width: 725px;
+    line-height: 30px;
+}
+.solu-bgnav {
+    background-color: #00000080;
+    height: 50px;
+    position: relative;
+    top: -50px;
+}
+.solu-nav {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.solu-nav ul{
+    max-width: 1270px;
+    margin: 0 auto ;
+    padding: 0;
+}
+.solu-nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.solu-nav ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+.solu-main {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.solu-one {
+    height: 550px;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+h2 i {
+    color: red;
+    font-style: normal;
+}
+.solu-mone {
+    border: 1px solid #999;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.solu-mone img {
+    transition: 1s;
+}
+.solu-mone img:hover {
+    transform: scale(1.1);
+}
+.solu-mleft {
+    width: 636px;;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.solu-mleft p {
+    margin-top: 30px;
+    color: #999;
+    line-height: 25px;
+}
+.solu-two {
+    max-width: 1270px;
+    margin: 0 auto;
+    height: 550px;
+}
+.solu-mtwo {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.solu-mtwoin {
+    width: 310px;
+    height: 200px;
+    margin-top: 30px;
+}
+.mtwoin-in {
+    position: relative;
+    top: -205px;
+    width: 310px;
+    height: 200px;
+    background: #999;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.mtwoin-in:hover {
+    background: #08a0e9;
+}
+.mtwoin-ini {
+    position: relative;
+    top: -410px;
+    width: 310px;
+}
+.mtwoin-ini img {
+    margin: 60px 135px 0;
+}
+.mtwoin-ini p {
+    width: 230px;
+    margin: 10px 40px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.solu-bgthree {
+    width: 100%;
+    background: #f2f2f2;
+}
+.solu-three {
+    max-width: 1270px;
+    margin: 0 auto 50px;
+    padding-top: 50px;
+}
+.solu-three h2 {
+    padding-bottom: 30px;
+}
+.solu-threeList {
+    padding-bottom: 50px;
+}
+.solu-threeList ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.solu-threeList ul li {
+    display: inline-block;
+    width: 390px;
+    height: 472px;
+    background: #fff;
+}
+.threeList-dl dt {
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: #08a0e9;
+    color: #fff;
+}
+.threeList-dl dd {
+    margin: 20px 20px 30px;
+    color: #999;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
+    font-size: 15px;
+}
+.threeList-main {
+    margin: 0 20px;
+}
+.fa-book-open {
+    margin-right: 5px;
+    color: #08a0e9;     
+}
+.threeList-main p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.threeList-main p span {
+    width: 235px;
+}
+.solu-fore {
+    max-width: 1270px;
+    margin: 0 auto;
+    height: 700px;
+}
+.solu-foreUl {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.solu-foreUl li {
+    width: 298px;
+    height: 298px;
+}
+.solu-foreUl li>p {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.solu-foreUl li h3{
+    display: flex;
+    align-items: center;
+    height: 85px;
+    background: #f2f2f2;
+}
+.solu-foreUl li h3 p {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #08a0e9;
+}
+.solu-foreUl li h3 img {
+    width: 31px;
+    height: 24px;
+    margin-left: 10px;
+}
+.solu-five {
+    background: url(../images/solu-bg03.jpg) no-repeat;
+    background-size: 100% 500px;
+    height: 550px;
+}
+.solu-fiveMain {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.solu-fiveMain h2 , .solu-fiveMain h2 i{
+    color: #fff;
+}
+.solu-mfive {
+    display: flex;
+    justify-content: space-between;
+}
+.solu-mfivein {
+    height: 260px;
+}
+.solu-mfivein p {
+    width: 300px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    z-index: 20;
+}
+.solu-mfivein p img {
+    width: 152px;
+    height: 152px;
+}
+.solu-mfivein p span {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+}
+.solu-mfivei  {
+    width: 300px;
+    height: 260px;
+    background: #fff;
+    position: relative;
+    top: -260px;
+    opacity: 0.1;
+    z-index: 19;
+}
+.solu-six {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.solu-six>p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+.solu-sixMain {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.solu-sixMain p {
+    
+}
+.solu-Mainimg {
+    width: 238px;
+    overflow: hidden;
+}
+.solu-Mainimg img {
+    width: 238px;
+    height: 318px;
+    transition: 1s;
+}
+.solu-Mainimg img:hover {
+    transform: scale(1.1);
+}
+.solu-sixMai {
+    display: flex;
+    justify-content: space-between;
+    width: 1258px;
+}
+.solu-sixMai p {
+    width: 238px;
+    height: 38px;
+    background: rgba(6,31,80,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.7;
+    position: relative;
+    top: -55px;
+    left: 6px;
+}
+.solu-sixMai p span {
+    color: #fff;
+    font-size: 18px;
+}

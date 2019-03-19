@@ -1,0 +1,182 @@
+
+.navbar-brand {
+    height: 100px;
+}
+.navbar-default {
+    background-color:#fff;
+    border-color:#fff;
+}
+.container-fluid {
+    background: #fff;
+}
+.jumbotron {
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding-top: 10px;
+}
+.jumbotron>img {
+    width: 100%;
+}
+h2 {
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.w-two-1 {
+    grid-area:two-1;
+}
+.w-two-2 {
+    grid-area: two-2;
+}
+.w-two-3 {
+    grid-area: two-3;
+}
+.w-two-4 {
+    grid-area: two-4;
+}
+.w-two-5 {
+    grid-area: two-5;
+}
+.w-two-6 {
+    grid-area: two-6;
+}
+.w-two-7 {
+    grid-area: two-7;
+}
+.w-img {
+    display: grid;
+    grid-template-areas:
+        "two-1  two-1  two-2  two-3"
+        "two-4  two-5  two-6  two-7";
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+.w-img img {
+    transition: 1s;
+}
+.w-img img:hover {
+    transform: scale(1.1);
+}
+.w-img  li {
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+}
+.w-img  li span {
+    position: relative;
+    top: -50px;
+    left:15px;
+    font-size: 18px;
+    color: #fff;
+}
+.w-bg {
+    background: #f2f2f2;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.w-three {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    background: #f2f2f2;
+}
+.media {
+    display: flex;
+    justify-content: space-between;
+}
+.list-group {
+    height: 358px;
+}
+
+.list-group-item dt>a{
+    color: #000;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.list-group-item li>a {
+    color: #000;
+    font-size: 18px;
+}
+.list-group-item i {
+    float: right;
+    font-style: normal;
+}
+.list-group-item dd {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.list-group-item li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.list-group-item span {
+    margin-right: 5px;
+    color: blue;
+}
+.w-five {
+    background: url(../images/fore-big.jpg) no-repeat;
+    background-size: 100% 550px;
+    height: 650px;
+}
+.five-in {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.five-li {
+    text-align: center;
+}
+.five-li dt  {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 38px;
+}
+.five-li dd {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.five-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.five-list li {
+    display: inline-block;
+    color: #fff;
+    font-size: 28px;
+    padding-top: 50px;
+}
+.five-st {
+    padding-top: 80px;
+    text-align: center;
+}
+.five-st a{
+    color: #fff;
+    font-size: 16px;
+}
+.six {
+    height: 300px;
+}
+.six-logo {
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.six-logo img {
+    transition: 1s;
+}
+.six-logo img:hover{
+    transform: scale(1.1);
+}
+.six-logo  li{
+    display: inline-block;
+}
